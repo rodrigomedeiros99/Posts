@@ -1,0 +1,48 @@
+.container {
+  background-color: #d7e1e7;
+  border-radius: 1rem;
+  display: flex;
+  gap: 3rem;
+  height: 30rem;
+  margin: 0 auto;
+  padding: 4rem;
+  width: 55rem;
+  /* centralizando a div */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.poster {
+  border: 8px solid #000;
+  box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.9);
+}
+
+.title {
+  font-size: 1.75rem;
+}
+
+.container p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+  padding-bottom: 20px;
+}
+
+.container button {
+  background-color: #121212;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 0.75em 1.25em;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
